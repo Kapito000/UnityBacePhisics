@@ -12,6 +12,9 @@ public class AviaHorizon : MonoBehaviour
     [SerializeField] float _pitchAngle = 0; // Тангаж.
     [SerializeField] float _heelAngle = 0; // Крен.
 
+    public float PitchAngle => _pitchAngle;
+    public float HeelAngle => _heelAngle;
+
     [SerializeField] Transform _flyter;
 
     private void Awake()
