@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class OpenImage : MonoBehaviour
 {
-    [SerializeField] Image _image;
+    [SerializeField] Image _image = null;
 
     GameObject _imageGO;
 

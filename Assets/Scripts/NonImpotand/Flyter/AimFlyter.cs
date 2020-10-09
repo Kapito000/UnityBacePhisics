@@ -6,8 +6,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class AimFlyter : MonoBehaviour
 {
-    [SerializeField] Collider[] _ignoreCollidres;
-    [SerializeField] Transform _aimGO;
+    [SerializeField] Transform _aimGO = null;
 
     [SerializeField] float _scaleAim = 0.2f;
 

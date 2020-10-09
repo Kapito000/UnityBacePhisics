@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BoomAudioCreator : MonoBehaviour
 {
-    [SerializeField] GameObject _audioPrefab;
-    [SerializeField] AudioClip[] _audioClips;
+    [SerializeField] GameObject _audioPrefab = null;
+    [SerializeField] AudioClip[] _audioClips = null;
 
     public void Create()
     {

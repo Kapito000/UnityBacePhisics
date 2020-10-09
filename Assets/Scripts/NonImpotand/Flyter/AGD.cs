@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class AGD : MonoBehaviour
 {
-    [SerializeField] AviaHorizon _aviaHorizon;
+    [SerializeField] AviaHorizon _aviaHorizon = null;
 
     [Space]
 
-    [SerializeField] RectTransform _heel;
-    [SerializeField] Text _pitch;
+    [SerializeField] RectTransform _heel = null;
+    [SerializeField] Text _pitch = null;
 
     private void FixedUpdate()
     {

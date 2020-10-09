@@ -9,9 +9,9 @@ public class ExplosionFlyter : MonoBehaviour
     [SerializeField] float _power = 10;
     [SerializeField] float _attenuation = 0.1f;
     [Space]
-    [SerializeField] AimFlyter _aim;
+    [SerializeField] AimFlyter _aim = null;
 
-    [SerializeField] QuickEvent _boom;
+    [SerializeField] QuickEvent _boom = null;
 
     private void Update()
     {
