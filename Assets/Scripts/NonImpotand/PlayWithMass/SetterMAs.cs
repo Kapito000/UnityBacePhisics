@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SetterMAs : MonoBehaviour
 {
-    [SerializeField] Camera _camera;
+    [SerializeField] Camera _camera = null;
 
     private void Update()
     {
