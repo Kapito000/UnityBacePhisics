@@ -10,11 +10,6 @@ public class ShootingController : MonoBehaviour
 
     private void Update()
     {
-        Shoot();
-    }
-
-    void Shoot()
-    {
         if (!Input.GetMouseButtonDown(0)) return;
 
         var direction = _camera.ScreenPointToRay(Input.mousePosition).direction;

@@ -126,3 +126,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hole: {fileID: 4476142136247197810, guid: dbb7f4f02e2a45e49a930dc0b8b53b60, type: 3}
+  _life: 30
